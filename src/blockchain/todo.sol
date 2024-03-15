@@ -2,6 +2,7 @@
 pragma solidity ^0.8.19;
 
 contract TodoContract {
+  
     struct Todo {
         uint256 id;
         string task;
